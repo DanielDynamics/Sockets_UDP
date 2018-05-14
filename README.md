@@ -10,8 +10,12 @@ Implement a server using their TS-7250 board. Each board will start with a slave
 The server should also disregard any invalid message.
 
 Requirement
+
 1.) Each board must determine its IP dynamically (you cannot hard code the IP address in).
+
 2.) The messages will always be character arrays of size 40.
+
 3.) Votes must be randomly generated integers in the range [1, 10].
+
 4.) The port used for communication should be an argument of your program, i.e., when you
 run your program, you should be able to provide the port number. By default, port 2000 will be used.
